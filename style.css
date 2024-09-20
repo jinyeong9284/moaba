@@ -72,6 +72,12 @@
 #landing #sec3 .mo_circle{
   display: none;
 }
+#landing #sec3 .pc_h2{
+  width: 80%;
+}
+#landing #sec3 .mo_h2{
+  display: none;
+}
 
 /*sec4*/
 #landing #sec4{background: var(--cl-pale);}
@@ -231,6 +237,13 @@ line-height:30px;}
 #landing #secPayment .class_notice li::before{content: '※'; position: absolute; left: 0; font-size:18px;}
 #landing #secPayment .class_notice li p{text-align: left; padding-left:15px; font-size:18px; font-weight:500;}
 #landing #secPayment .class_notice2 li p{text-align: left; color:#52c7c5; font-weight:700; font-size:20px;}
+#landing #secPayment .sec9_tit .sec9_h2_mo{
+  display: none;
+}
+#landing #secPayment .sec9_tit .sec9_h2_pc{
+ position: static;
+ width: 100%;
+}
 
 /* secCaution */
 #landing #secCaution{background-color:#232323;}
@@ -383,6 +396,16 @@ line-height:30px;}
   #landing #secPayment .class_notice li::before{
     left: 40px;
   }
+  #landing #secPayment .sec9_tit .sec9_h2_mo{
+    display: block;
+    position: static;
+   object-fit: cover;
+   margin: auto;
+  }
+  #landing #secPayment .sec9_tit .sec9_h2_pc{
+   display: none;
+   width: 100%;
+  }
 }
 
 /* large mobile and Tablet */
@@ -465,6 +488,13 @@ line-height:30px;}
   }
   #landing #sec3 .circle{padding-top:30px;}
   #landing #sec3 .circle img{
+    width: 100%;
+  }
+  #landing #sec3 .pc_h2{
+    display: none;
+  }
+  #landing #sec3 .mo_h2{
+    display: block;
     width: 100%;
   }
 
@@ -723,6 +753,16 @@ line-height:30px;}
   #landing #secPayment .class_notice li p{
     padding-left: 25px;
   }
+  #landing #secPayment .sec9_tit .sec9_h2_mo{
+    display: block;
+    position: static;
+   margin: auto;
+   width: 70%;
+  }
+  #landing #secPayment .sec9_tit .sec9_h2_pc{
+   display: none;
+   width: 100%;
+  }
 }
 
 /*Mobile*/
@@ -814,6 +854,13 @@ line-height:30px;}
   }
   #landing #sec3 .circle{padding-top:10px;}
   #landing #sec3 .circle img{
+    width: 100%;
+  }
+  #landing #sec3 .pc_h2{
+    display: none;
+  }
+  #landing #sec3 .mo_h2{
+    display: block;
     width: 100%;
   }
 
@@ -1147,5 +1194,15 @@ line-height:30px;}
   }
   #landing #secCaution h5{
     font-size: 36px;
+  }
+  #landing #secPayment .sec9_tit .sec9_h2_mo{
+    display: block;
+    position: static;
+   margin: auto;
+   width: 70%;
+  }
+  #landing #secPayment .sec9_tit .sec9_h2_pc{
+   display: none;
+   width: 100%;
   }
 }
